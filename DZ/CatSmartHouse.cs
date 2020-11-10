@@ -63,7 +63,7 @@ namespace DZ
             Console.Write($"Еды в вольере: + {FoodResourse}".PadRight(50));
             Console.SetCursorPosition(leftPosition, topPosition);
         }
-
+            
     }
 }
 

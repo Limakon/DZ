@@ -25,7 +25,7 @@ namespace DZ
             CatSmartHouse catSmartH = new CatSmartHouse(900);
             catSmartH.AddCat(c);
             catSmartH.AddCat(ct);
-            Console.ReadLine();
+            Console.ReadLine();    
         }
     }
 

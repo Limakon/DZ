@@ -16,7 +16,7 @@ namespace DZ
             BirthDay = birthday;
             Task.Run(LifeCircle);
         }
-
+            
         public string Name
         {
             get;
