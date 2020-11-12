@@ -6,7 +6,7 @@ using System.Drawing;
 
 namespace DZ
 {
-    class CommandCenter
+    class CommandCenter      
     {
         public int eat;
 
@@ -67,7 +67,7 @@ namespace DZ
                     else if (array[1] == "-")
                     {
                         int.TryParse(Console.ReadLine(), out eat);
-                        eat += Convert.ToInt32(array[2]);
+                        eat += Convert.ToInt32(array[2]);    
                     }
                 }
             }
