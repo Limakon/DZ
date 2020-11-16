@@ -6,7 +6,7 @@ using System.Drawing;
 
 namespace DZ
 {
-    class CommandCenter      
+    class CommandCenter         
     {
         public int eat;
 

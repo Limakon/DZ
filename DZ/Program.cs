@@ -12,7 +12,7 @@ namespace DZ
     {
         static void Main(string[] args)
         {
-            Cat c = new Cat("Kit", new DateTime(2005, 8, 7));
+            Cat c = new Cat("Kit", new DateTime(2005, 8, 7));        
             c.MakeNoise();
             Console.WriteLine($"Кошке по имени {c.Name} уже {c.GetAge()} лет");
             //c.HungryStatus = 150;
