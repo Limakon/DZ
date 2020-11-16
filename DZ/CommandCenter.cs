@@ -10,7 +10,7 @@ namespace DZ
     {
         public int eat;
 
-        public CommandCenter(CatSmartHouse CatHouse)
+        public CommandCenter(CatSmartHouse CatHouse)   
         {
             CatSmartHouse = CatHouse;
             WaitCommand();

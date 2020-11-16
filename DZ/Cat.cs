@@ -35,12 +35,12 @@ namespace DZ
             return (DateTime.Today - BirthDay).Days / 365;
         }
 
-        public byte HungryStatus
+        public sbyte HungryStatus
         {
-            get { return _hungryStatus; }
+            get { return (sbyte)_hungryStatus; }
             set
             {
-                byte status = value;
+                sbyte status = value;
                 if (status < 0)
                 {
                     status = 0;
@@ -50,7 +50,7 @@ namespace DZ
                     status = 100;
                 }
                 else
-                    _hungryStatus = value;
+                    _hungryStatus = (byte)value;
                 if (_hungryStatus != value)
                 {
                     HungryStatusChanged?.Invoke(this, null);
@@ -61,7 +61,7 @@ namespace DZ
 
         public bool HungryStatys { get; private set; }
 
-        public void Feed(byte needFood)
+        public void Feed(sbyte needFood)
         {
             HungryStatus += needFood;
         }
